@@ -1,0 +1,285 @@
+/* general */
+* { /* Reset the space of the webpage */
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: white; 
+}
+
+/* page title */
+h1 {
+  color: black;
+  text-align: center;
+  font-weight: 700;
+  font-size: 350%;
+  margin-top: 2%;
+}
+
+.heading {
+  text-align: center;
+  font-size: 170%;
+  font-weight: 650;
+  margin-top: 3%;
+}
+
+/* explanations */
+p {
+  color: black;
+  font-weight: 400;
+}
+
+/* links + lists */
+a {
+  color: white;
+}
+
+a:hover {
+  color: #C9ADA7;
+}
+
+li a{
+  text-decoration: none;
+}
+
+/* images */
+img {
+  border: 5px solid #4A4E69;
+  border-radius: 20px;
+  padding: 3px;
+}
+
+/* nav bar */
+nav {
+  background-image: linear-gradient(to bottom, #22223B, #4A4E69);
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px;
+  float: right;
+}
+
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 10px;
+}
+
+nav li {
+  display: inline;
+}
+
+/* homepage */
+/* intro image and desc */
+#binaryPic {
+  max-width: 40%;
+  margin-left: 12%;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+#introMedia p {
+  font-size: 150%;
+  max-width: 50%;
+  margin-right: 12%;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+#introMedia {
+  display: inline-flex;
+}
+
+/* homepage facts */
+.homeFact h3 {
+  font-weight: 600;
+  font-size: 135%;
+  margin-top: 2%;
+}
+
+.homeFact p {
+  font-size: 120%;
+}
+
+.homeFact {
+  text-align: center;
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+/* role models/women in stem */
+.roleModelProfile {
+  max-width: 25%;
+  text-align: center;
+  border-radius: 20px;
+  background-image: radial-gradient(#22223B, #4A4E69);
+  padding: 20px;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.roleModelName {
+  color: white;
+  font-weight: 550;
+  font-size: 130%;
+}
+
+.roleModelInfo {
+  color: white;
+}
+
+#roleModels img {
+  max-width: 300px;
+  border-color: white;
+}
+
+#roleModels {
+  margin-left: 5%;
+  margin-right: 3%;
+}
+
+.roleModelProfile {
+  float: left;
+  box-shadow: 0px 0px 15px 1px black;
+  margin-bottom: 60px;
+}
+
+/* about page */
+#aboutPic {
+  max-width: 40%;
+  margin-left: 2%;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+#aboutText {
+  font-size: 150%;
+  max-width: 50%;
+  margin-right: 2%;
+  margin-top: 30px;
+  margin-left: 45px;
+  text-align: center;
+}
+
+#aboutMedia {
+  display: inline-flex;
+}
+
+/* resources */
+.resources .heading {
+  margin: 0%;
+}
+
+.resources {
+  max-width: 900px;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 20px;
+  background-image: radial-gradient(#22223B, #4A4E69);
+  padding: 15px;
+  margin-top: 2%;
+  color: white;
+  box-shadow: 0px 0px 15px 1px black;
+}
+
+.resources ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.resources a:hover {
+  color: #C9ADA7;
+}
+
+#contactForResources h3 {
+  text-align: center;
+  float: left;
+  margin-left: 29%;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  margin-right: 15px;
+}
+
+#lmk {
+  border: none;
+  border-radius: 40px;
+  padding: 10px;
+  margin-top: 20px;
+  background-image: radial-gradient(#22223B, #4A4E69);
+  color: white;
+  font-size: 16px;
+}
+
+#lmk:hover {
+  background-image: none;
+  background: #C9ADA7;
+  color: black;
+}
+
+/* flex */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex-item {
+  flex-basis: 100%;
+  margin: 1%;
+}
+
+@media screen and (max-width: 1400px) {
+  .flex-container {
+    flex-wrap: wrap;
+  }
+
+  main {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+/* fact generator */
+#factGenerator {
+  max-width: 1500px;
+  text-align: center;
+  margin-left: 18%;
+  margin-right: 18%;
+  border-radius: 20px;
+  padding: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  background-image: radial-gradient(#22223B, #4A4E69);
+  color: white;
+  box-shadow: 0px 0px 15px 1px black;
+}
+
+#factGenerator p {
+  color: white;
+}
+
+#factGenerator button {
+  border: none;
+  border-radius: 40px;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+#factGenerator button:hover {
+  background:#C9ADA7;
+}
+
+#fact {
+  font-size: 19px;
+  font-weight: 500;
+}
