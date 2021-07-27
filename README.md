@@ -1,3 +1,5 @@
+# Activist Toolkit (GWC SIP)
+
 ### 👩🏽‍💻 About the Project
 This is my Activist Toolkit for the 2021 Girls Who Code Virtual Summer Immersion Program. I worked on this project for four days and used what I learned about HTML, CSS, and JavaScript during the program to create this site. This website's purpose is to inform visitors about gender inequality in STEM and business as well as provide resources for visitors to learn about STEM, business, and how they can combat gender inequality.
 
