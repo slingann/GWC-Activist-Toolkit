@@ -12,3 +12,9 @@ As a young woman passionate about using STEM to positively impact the world, I f
 - [Ada Lovelace image - "The Untold Story of Women in Science and Technology"](https://obamawhitehouse.archives.gov/sites/default/files/women-in-stem/ada-lovelace.jpg)
 - [Dr. Lisa Su image - AMD, "AMD President and CEO Dr. Lia Su"](https://www.amd.com/system/files/101969-amd-executive-lisa-su-formal-1260x709.jpg)
 - ["Women Lead" graphic - Pixabay](https://cdn.pixabay.com/photo/2014/09/20/09/23/businesswoman-453487_960_720.jpg)
+
+### 🛠 Made With
+- Replit (IDE)
+- HTML
+- CSS
+- JavaScript
