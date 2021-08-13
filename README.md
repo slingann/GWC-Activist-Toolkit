@@ -14,7 +14,4 @@ As a young woman passionate about using STEM to positively impact the world, I f
 - ["Women Lead" graphic - Pixabay](https://cdn.pixabay.com/photo/2014/09/20/09/23/businesswoman-453487_960_720.jpg)
 
 ### 🛠 Made With
-- Replit (IDE)
-- HTML
-- CSS
-- JavaScript
+`Replit (IDE)` `HTML` `CSS` `JavaScript`
